@@ -66,4 +66,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // live data for state handling
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.4")
+
+    //  viewModels for state handling
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
 }
