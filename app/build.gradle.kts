@@ -72,4 +72,7 @@ dependencies {
 
     //  viewModels for state handling
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+
+    // unit test
+    testImplementation("junit:junit:4.13.2")
 }
